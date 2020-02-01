@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Markdown 语法简明笔记"
-date:   2018-6-21
+title: "Markdown 语法"
+date:   2018-5-21
 tags: [markdown]
 comments: true
-author: lemonchann
+author: OriginalXY
 toc: true
 ---
 Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。markdown是为那些需要经常码字或者进行文字排版的、对码字手速和排版顺畅度有要求的人群设计的，他们希望用键盘把文字内容打出来后就已经排版好了，最好从头到尾都不要使用鼠标。这些人包括经常需要写文档的码农、博客写手、网站小编、出版业人士等等** 参考[**百度百科**](https://baike.baidu.com/item/markdown/3245829?fr=aladdin)
@@ -58,23 +58,15 @@ Markdown是一种可以使用普通文本编辑器编写的标记语言，通过
 >语法：`[链接说明](uri)`
 
 - **插入图片**   
->语法: `![image](uri)` 语法上和插入链接只是多了个！ 插入图片的方法有很多种，csdn markdown提供插入图片功能，也可以注册各种图床（网上搜索说是七牛云最好用，没用过不发表）我这里说一种脑回路清奇的用GitHub当图床插入图片的方法。原链接参考[知乎](https://www.zhihu.com/question/21065229/answer/61070700?utm_medium=social&utm_source=wechat_session)   
+>语法: `![image](uri)` 语法上和插入链接只是多了个！ 插入图片的方法有很多种，csdn markdown提供插入图片功能，也可以注册各种图床（七牛云，SM.MS，工具可以用PicGO）   
 
-### 以我的实践举个图片插入的栗子：
+### 图片插入中遇到的问题：
 
-1. 将markdown需要用的图片放到git仓库中，发布到github上
-2. 访问我的github仓库https://github.com/lemonchann/cloud_image
-3. 访问图片cloud_image/Markdown语法简明笔记1.png 
-4. 点 download 按钮，在地址栏可以复制图片地址，或者在Download按钮上直接右键 "复制链接地址"
-5. 拷贝链接地址https://raw.githubusercontent.com/lemonchann/cloud_image/master/Markdown%E8%AF%AD%E6%B3%95%E7%AE%80%E6%98%8E%E7%AC%94%E8%AE%B01.png
-6. 在Markdown中引用图片
-7. 这是这篇博客我在markdown编辑器里的编辑的内容![Markdown语法简明笔记1](https://github.com/lemonchann/lemonchann.github.io/raw/master/images/2018-6-21-Markdown_brief_syntactic/Markdown%E8%AF%AD%E6%B3%95%E7%AE%80%E6%98%8E%E7%AC%94%E8%AE%B01.png)
-
-  ![Markdown语法简明笔记2](https://github.com/lemonchann/lemonchann.github.io/raw/master/images/2018-6-21-Markdown_brief_syntactic/Markdown%E8%AF%AD%E6%B3%95%E7%AE%80%E6%98%8E%E7%AC%94%E8%AE%B02.png)
-- **插入图片2**
-> 图片还可以用相对路径的方法插入，必须和markdown文件相同目录下的文件或文件夹，但这种方法不适合写单篇的csdn或知乎文章，可以用于写书写个人博客。
-> 语法示例：   
-> `![pic](image/test.png) 或 ![pic](test.png)`
+其实github做图床还是不错的，索性直接引用，但要注路径问题，三种方式：
+1. 项目绝对路径：https://raw.githubusercontent.com/用户名/项目名称/master/图片文件夹/xxx.png
+2. 博客绝对路径：https://githubpages地址/图片文件夹/xxx.png
+3. 图片还可以用相对路径的方法插入，必须和markdown文件相同目录下的文件或文件夹，但这种方法不适合写单篇的csdn或知乎文章，可以用于写书写个人博客。语法示例：   
+`![pic](image/test.png) 或 ![pic](test.png)`
 
 - **程序员必备代码段**  以三个 ` 开头带程序类型和 ``` 结尾，中间包含代码段
 ```c++
@@ -88,7 +80,7 @@ class test
 ```
 - **代码框** 用两个 ` 把代码框在中间就是代码段，也可以用于防止markdown语法生效（类似转义符）   
 
->`it is code`
+    `it is code`
 
 - **表格**   
 
@@ -101,13 +93,25 @@ row 2 col 1 | row 2 col 2
 
 ### 编辑器推荐
 
-推荐编辑器
+- Typora。
 
-- typora，谁用谁知道。
+	实时显示Markdown神器，推荐设置：
+	1. 勾选自动保存；
+	2. 禁止发送匿名使用数据；
+	3. 勾选一体化；
+	4. 勾选显示状态栏；
+	5. 勾选侧边栏的大纲视图允许折叠和展开；
+	6. 勾选显示行号。
 
-- vscode+markdown
+- Sublime。
 
+	顺便提下sublime浏览器预览的设置：
+	1. 如果只是简单的在浏览器中预览，不需要像网上说的那样安装`SideBarEnhancements`插件。因为这个插件功能太强，配置起来也麻烦；
+	2. 在不需要其他复杂功能的情况下，推荐使用`openInBrowser`插件，推荐使用`Package Control`进行安装；
+	3. 安装完成后，只需要一句简单的设置——绑定快捷键即可：打开`Preference->Key Bindings - User`，在里面加上一句：`{ "keys": ["f12"], "command": "open_in_browser" }` ；
+	4. 设置完成后，按'F12'键就可以直接在 默认浏览器 中打开并预览了。
 
+- vscode + markdown
 
 ### 参考文章
 - [Markdown: Basics （快速入门）](http://wowubuntu.com/markdown/basic.html)
