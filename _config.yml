@@ -37,11 +37,11 @@ excerpt_separator: <!-- more -->
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  weibo: OriginalXY #请输入你的微博个性域名 https://www.weibo.com/<thispart>
+  weibo:  #请输入你的微博个性域名 https://www.weibo.com/<thispart>
   behance: # https://www.behance.net/<username>
   dribbble:
   zhihu: 
-  email: leexueyan@foxmail.com
+  email: 
   facebook:
   flickr:
   github: OriginalXY 
