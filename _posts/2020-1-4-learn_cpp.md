@@ -240,5 +240,5 @@ author: lemonchann
 
 **我整理了文中提到和推荐的电子书与视频教材**，都是好几年学习过程中收集的，关注微信公众号 **柠檬橙学编程** 回复 **1024** 免费分享给大家。
 
-![资料截图.png](https://i.loli.net/2020/01/16/Sg9MvLO2bTutU46.png)
+![资料截图.png](https://originalxy.github.io/images/2020-1-4-learn_cpp/资料截图.png)
 
