@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="search-container">
-  <input type="text" id="search-input" placeholder="搜索" style="width: 90%;
+  <input type="text" id="search-input" placeholder="Search" style="width: 90%;
     margin: 20px;
     height: 35px;
     color: #333;
@@ -28,15 +28,15 @@ layout: default
 	resultsContainer: document.getElementById('results-container'),
 	json: '{{ site.baseurl }}/search.json',
 	searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a></li>',
-	noResultsText: '无',
+	noResultsText: 'Sorry, no matching results were found',
 	limit: 10,
 	fuzzy: false,
-	exclude: ['欢迎']
+	exclude: ['Welcome']
   })
 </script>
  
 {% if site.posts.size == 0 %}
-  <h2>无文章</h2>
+  <h2>None</h2>
 {% endif %}
 
 <div class="posts">
@@ -77,14 +77,14 @@ layout: default
   {% if paginator.previous_page %}
     <span class="prev">
       <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="prev">
-        ← 上一页
+        ← Previous
       </a>
     </span>
   {% endif %}
   {% if paginator.next_page %}
     <span class="next">
       <a href="{{ site.baseurl}}{{ paginator.next_page_path }}" class="next">
-        下一页 →
+        Next →
       </a>
     </span>
   {% endif %}
@@ -96,10 +96,10 @@ layout: default
 <!-- pv的方式，单个用户连续点击n篇文章，记录n次访问量 -->
 <div align="center">
 	<span id="busuanzi_container_site_pv" style="font-family:Consolas;color:Silver;font-size:12px;">
-		访问量:<span id="busuanzi_value_site_pv" style="font-family:Consolas;color:Silver;font-size:12px;">次</span>
+		Page View:<span id="busuanzi_value_site_pv" style="font-family:Consolas;color:Silver;font-size:12px;"></span>
 	</span>
 	<!-- uv的方式，单个用户连续点击n篇文章，只记录1次访客数 -->
 	<span id="busuanzi_container_site_uv" style="font-family:Consolas;color:Silver;font-size:12px;">
-		访客数:<span id="busuanzi_value_site_uv" style="font-family:Consolas;color:Silver;font-size:12px;">次</span>
+		User View:<span id="busuanzi_value_site_uv" style="font-family:Consolas;color:Silver;font-size:12px;"></span>
 	</span>
 </div>

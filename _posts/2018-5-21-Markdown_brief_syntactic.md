@@ -2,7 +2,7 @@
 layout: post
 title: "Markdown 语法"
 date:   2018-5-21
-tags: [markdown]
+tags: [Markdown]
 comments: true
 author: OriginalXY
 toc: true
@@ -11,7 +11,7 @@ Markdown是一种可以使用普通文本编辑器编写的标记语言，通过
 
 <!-- more -->
 
-### markdown语法
+## Markdown语法
 开始学习markdown就有必要了解一下基本的语法，这里罗列一些基本的语法，这些语法是非常简单且常用的，能够帮助你快速掌握这门轻量的标记语言并且能够动手写自己的小博客，动手写起博客之后一些高级的用法可以边用边学。
 
 - **标题样式**
@@ -60,7 +60,7 @@ Markdown是一种可以使用普通文本编辑器编写的标记语言，通过
 - **插入图片**   
 >语法: `![image](uri)` 语法上和插入链接只是多了个！ 插入图片的方法有很多种，csdn markdown提供插入图片功能，也可以注册各种图床（七牛云，SM.MS，工具可以用PicGO）   
 
-### 图片插入中遇到的问题：
+## 图片插入中遇到的问题
 
 其实github做图床还是不错的，索性直接引用，但要注路径问题，三种方式：
 1. 项目绝对路径：https://raw.githubusercontent.com/用户名/项目名称/master/图片文件夹/xxx.png
@@ -91,7 +91,7 @@ row 2 col 1 | row 2 col 2
 
 
 
-### 编辑器推荐
+## 编辑器推荐
 
 - Typora。
 
@@ -111,11 +111,9 @@ row 2 col 1 | row 2 col 2
 	3. 安装完成后，只需要一句简单的设置——绑定快捷键即可：打开`Preference->Key Bindings - User`，在里面加上一句：`{ "keys": ["f12"], "command": "open_in_browser" }` ；
 	4. 设置完成后，按'F12'键就可以直接在 默认浏览器 中打开并预览了。
 
-- vscode + markdown
+- VSCode + Markdown
 
-### 参考文章
-- [Markdown: Basics （快速入门）](http://wowubuntu.com/markdown/basic.html)
-- [Markdown中插入图片有什么技巧？](https://www.zhihu.com/question/21065229/answer/61070700?utm_medium=social&utm_source=wechat_session)
-
-- [【进阶版】有道云笔记Markdown指南](http://note.youdao.com/iyoudao/?p=2445)
-- [【简明版】有道云笔记Markdown指南](http://note.youdao.com/iyoudao/?p=2411)it
+## 参考文章
+- [Typora 安装及设置插入图片](https://www.jianshu.com/p/4a4af09af914)
+- [Typora 完全使用详解](https://sspai.com/post/54912)
+- [写作系统三件宝：印象笔记，幕布，Typora](https://www.jianshu.com/p/67edbe3f864b)

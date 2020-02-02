@@ -517,12 +517,13 @@ nav {
 // TOC
 
 .toc {
-  width: 240px;
+  width: 310px;
   height: 100%;
   left: 30%;
   position: fixed;
+  background-color: $background-toc-color;
   z-index: 4;
-  padding: 60px 20px 0 20px;
+  padding: 60px 0 0 0;
   
   &:before{
     content:"目录";
@@ -545,7 +546,7 @@ nav {
 
 @media screen and (max-width:2200px) and (min-width:1200px){
   .withtoc{
-    padding-left: 260px;
+    padding-left: 300px;
   }
 }
 
