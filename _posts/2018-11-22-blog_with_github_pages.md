@@ -1,23 +1,22 @@
 ---
 layout: post
-title: "可能是最全面的github pages搭建个人博客教程"
-date:   2019-11-22
-tags: [geek]
+title: "Jekyll + Github Pages = 博客"
+date:   2018-11-22
+tags: [Writing]
 comments: true
 author: lemonchann
+toc: true
 ---
 
-作为一个程序员怎么能没有自己的个人博客呢，这里详细记录和分享我的博客搭建经验，让你轻轻松松拥有自己的博客网站。	傻瓜式一站式教你用github pages 来搭建博客，详细记录全过程。
+其实一开始并没有打算用jekyll来搭建，然而WordPress还要自己去找机子来搭有点麻烦（其实官方也提供了），关键是想做个整合，把知乎V2EX微博githubCSDN什么的都管起来，所以博客只是其次，主要是搬运工、个人学习和成果展示。
+
+初期想着直接从模板上搬运（好吧其实现在这个也是搬运的...），可以参考[三分钟在GitHub上搭建个人博客](https://zhuanlan.zhihu.com/p/28321740)，里面用到的模板是[HTML5 UP](https://html5up.net/)，虽然已经放弃这个方案了但后期的很多改造还是会参考这里的模板改进。
 
 <!-- more -->
 
 ## 开始
 
-先看下博客整体效果。[**点击在线预览我的博客**]( https://lemonchann.github.io/ )
-
-![blogPage](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/blogPage.png)
-
-### 支持特性
+先看下博客整体效果。[预览我的博客](https://originalxy.github.io/)
 
 - 简约风格博客
 
@@ -39,6 +38,7 @@ author: lemonchann
 
 - 支持归档与标签
 
+- 其他功能正在规划中...
   
 
 ## 建立博客Git仓库
