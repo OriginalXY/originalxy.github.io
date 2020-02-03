@@ -2,7 +2,7 @@
 layout: post
 title: "Markdown 语法"
 date:   2018-5-21
-tags: [Markdown]
+tags: [Writing]
 comments: true
 author: OriginalXY
 toc: true
@@ -69,7 +69,7 @@ Markdown是一种可以使用普通文本编辑器编写的标记语言，通过
 `![pic](image/test.png) 或 ![pic](test.png)`
 
 - **程序员必备代码段**  以三个 ` 开头带程序类型和 ``` 结尾，中间包含代码段
-```c++
+```cpp
 #include<iostream>
 using namespace std;
 class test
@@ -111,9 +111,11 @@ row 2 col 1 | row 2 col 2
 	3. 安装完成后，只需要一句简单的设置——绑定快捷键即可：打开`Preference->Key Bindings - User`，在里面加上一句：`{ "keys": ["f12"], "command": "open_in_browser" }` ；
 	4. 设置完成后，按'F12'键就可以直接在 默认浏览器 中打开并预览了。
 
-- VSCode + Markdown
+- VSCode
 
-## 参考文章
+- MarkdownPad
+
+## 参考
 - [Typora 安装及设置插入图片](https://www.jianshu.com/p/4a4af09af914)
 - [Typora 完全使用详解](https://sspai.com/post/54912)
 - [写作系统三件宝：印象笔记，幕布，Typora](https://www.jianshu.com/p/67edbe3f864b)
