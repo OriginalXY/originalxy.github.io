@@ -15,18 +15,18 @@ toc: true
 <!-- more -->
 
 ## 开始
-
+## 开始
+## 开始
+## 开始
 先看下博客整体效果。[预览我的博客](https://originalxy.github.io/)
-
-- 简约风格博客
 
 - Powered By Jekyll
 
-- 博客文章搜索
+- 文章搜索
 
 - 自定义社交链接
 
-- 网站访客统计
+- 不蒜子网站访客统计
 
 - Google Analytics 网站分析
 
@@ -34,89 +34,34 @@ toc: true
 
 - 自定义关于about页面
 
-- 支持中文布局
+- 中文布局
 
-- 支持归档与标签
+- 归档与标签
 
 - 其他功能正在规划中...
   
 
 ## 建立博客Git仓库
 
-首先你要在[github](https://github.com/)上有自己博客仓库，用来生成和存放博客文章。你可以直接fork我的博客仓库。这样你马上有了自己的博客仓库。
-
-[点这里我的博客地址](https://github.com/lemonchann/lemonchann.github.io)进去fork，之后在你自己的仓库下会看到刚复制的仓库。以后的操作都在你自己的仓库进行。
-
-![fork博客](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/fork%E5%8D%9A%E5%AE%A2.png)
-
-**版权声明： fork之后_posts文件夹内容是我的博客文章，版权归我所有。你可以选择删除里面的文章替换上自己的或者转载附上链接注明出处。 **
+首先你要在[github](https://github.com/)上有自己博客仓库，用来生成和存放博客文章。
 
 ## 修改博客仓库名称
 
 进到你自己的博客仓库，修改博客仓库名称成你自己的用户名。github page解析的时候找的是这个 username.github.io的仓库名。
 
-![修改仓库名称](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/%E4%BF%AE%E6%94%B9%E4%BB%93%E5%BA%93%E5%90%8D%E7%A7%B0.png)
-
 此时，不出意外的话，打开域名https://username.github.io 就能看到你刚搭建的博客了。*注意替换username成你自己的github用户名*。
 
 ## 博客配置
 
-上面点开域名看到的还是我的博客配置，显示的博客名字也是我的。还需要更改配置才是你的博客。
-
 博客的配置文件是仓库根目录下的_config.yml文件，直接点开它编辑。
-
-![config文件](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/config%E6%96%87%E4%BB%B6.png)
 
 你还需要更改以下配置：
 
-### 博客名称和描述
+### 名称和描述
 
-![更改名称](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/%E6%9B%B4%E6%94%B9%E5%90%8D%E7%A7%B0.png)
+name和description分别是博客名称和描述，自己任意写点啥。
 
-分别是博客名称和描述，自己任意写点啥。
-
-### 博客社交链接
-
-![更改社交链接](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/%E6%9B%B4%E6%94%B9%E7%A4%BE%E4%BA%A4%E9%93%BE%E6%8E%A5.png)
-
-这里配置社交链接按钮，没配的不显示，我现在配了知乎、邮箱、github账号三个。其他你想加自己加上就可以。
-
-###  配置gitalk
-
-这个是评论功能的配置。评论功能基于gitalk，在配置文件中找到gitalk配置项目：
-
-修改规则如下：
-
-```yml
-gitalk:
-  clientID: <你的clientID>
-  clientSecret: <你的clientSecret>
-  repo: <你的repository名称>
-  owner: <你的GitHub用户名>
-```
-
-原理是利用github的issues评论文章。其中clientID和clientSecret需要[点击这里创建](https://github.com/settings/applications/new)
-
-![创建gitalk鉴权app](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/%E5%88%9B%E5%BB%BAgitalk%E9%89%B4%E6%9D%83app.png)
-
-点绿色按钮创建，成功之后会得到以上两个id，修改配置即可。
-
-### Google站长统计
-
-首先你要去注册一个[Google Analytics]( https://analytics.google.com/analytics/ )账号，它可以统计你博客网站的访问人数，访问来源等非常丰富的网站数据。如果你不在乎可以不用跳过这节。不过要把配置中我的`google_analytics: UA-XXXXXXX-X`删除，**否则统计到我的去了**。
-
-```
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-XXXXXXX-X
-```
-
-下面是我的网站实时分析页面展示：
-
-![google分析页面](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/google%E5%88%86%E6%9E%90%E9%A1%B5%E9%9D%A2.png)
-
-由于不可描述的原因，国内注册账号可能会遇到问题，所有不配置也没关系。
-
-### 博客网址配置
+### 网址配置
 
 ```
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
@@ -126,29 +71,19 @@ url: https://yourname.github.io
 
 这里配置你自己的博客地址。
 
-### 配置提交
-
-对_config.ymld的修改需要提交才能生效，点下图中绿色按钮提交。
-
-![配置提交](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/%E9%85%8D%E7%BD%AE%E6%8F%90%E4%BA%A4.png)
-
-**done! 现在输入上面提到的博客地址，回车，你拥有了自己的博客。**
-
 ## 如何写博客
 
 好了，博客有了。如何更新文章呢？
 
-文章用markdown语法，写好统一放在_post文件夹下上传，git page会自动从你的git仓库拉去解析成网页，立刻就能在你的博客网页浏览。
+文章markdown语法，写好统一放在_post文件夹下上传，git page会自动从你的git仓库拉去解析成网页，立刻就能在你的博客网页浏览。
 
 关于文章的**命名格式**：博客文章必须按照统一的命名格式 `yyyy-mm-dd-blogName.md` 比如我这篇博客的名字是`2019-11-22-create_blog_with_github_pages.md`
 
-**看到这里，如果只是简单的想写博客，后面的不看也可以了，后面章节是记录一些DIY的过程。**
+## 本地Jekyll配置
 
-## 本地博客预览
+到目前为止，我们提交的文章都是必须上传到github仓库才能预览。如果你想写完在本地浏览器看一下效果在上传也可以
 
-到目前为止，我们提交的文章都是必须上传到github仓库才能预览。如果你想写完在本地浏览器看一下效果在上传也是可以的，因为不是所有人都有这样的需求。
-
-###  安装 Ruby 和 DevKit
+### 安装 Ruby 和 DevKit
 
 在官网下载，[点这里]( https://rubyinstaller.org/downloads/ )下载适合系统版本的 [Ruby+Devkit](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.5-1/rubyinstaller-devkit-2.6.5-1-x64.exe) 包。安装，弹出的窗口选3
 
@@ -172,8 +107,6 @@ url: https://yourname.github.io
 ### 安装jekyll
 
 ` gem install jekyll`
-
-![jekyll安装](https://github.com/lemonchann/lemonchann.github.io/raw/master/images/2019-11-22-create_blog_with_github_pages/jekyll%E5%AE%89%E8%A3%85.PNG)
 
 ### 预览博客
 
@@ -213,11 +146,37 @@ url: https://yourname.github.io
 
 4. `$ tasklist|findstr 312964`也能查看进程名，查到结束掉他同步骤3.
 
-   
+##  Gitalk功能
 
-## 搜索功能集成
+这个是评论功能的配置。评论功能基于gitalk，在配置文件中找到gitalk配置项目：
 
-博客模板本来是没有搜索功能的，搜索功能依赖[Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search)提供支持。
+修改规则如下：
+
+```yml
+gitalk:
+  clientID: <你的clientID>
+  clientSecret: <你的clientSecret>
+  repo: <你的repository名称>
+  owner: <你的GitHub用户名>
+```
+
+原理是利用github的issues评论文章。其中clientID和clientSecret需要[点击这里创建](https://github.com/settings/applications/new)
+
+![创建gitalk鉴权app](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/%E5%88%9B%E5%BB%BAgitalk%E9%89%B4%E6%9D%83app.png)
+
+
+## Google统计功能
+
+首先你要去注册一个[Google Analytics]( https://analytics.google.com/analytics/ )账号，它可以统计你博客网站的访问人数，访问来源等非常丰富的网站数据。
+
+```
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics: UA-XXXXXXX-X
+```  
+
+## 搜索功能
+
+搜索功能依赖[Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search)提供支持。
 
 ### 配置search.json
 
@@ -266,19 +225,18 @@ url: https://yourname.github.io
 
 ![search_block](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/search_block.png)
 
-## 搜索框样式
+### 搜索框样式
 
 搜索框的样式是可以改变的，这里有修改HTML中CSS样式的方法，我搞后端的，前端现学现卖。
 
 [html插入标签样式方法](https://blog.csdn.net/u014103733/article/details/72961366)
 
 
+## 社交链接功能
 
-## 社交链接
+这里配置社交链接按钮，没配的不显示，可以配微博、知乎、邮箱、github等账号。其他你想加自己加上就可以。比如没有知乎链接，或者你想增加自定义的链接，都可以通过以下方法添加。以增加zhihu链接为例。
 
-模板提供的链接没有知乎链接，或者你想增加自定义的链接，都可以通过以下方法添加。以增加zhihu链接为例
-
-链接的图片是svg格式的(我也刚知道)，大概了解一下什么是svg和viewBox
+链接的图片是svg格式的知道)，大概了解一下什么是svg和viewBox
 
 [viewBox](https://developer.mozilla.org/zh-CN/docs/Web/SVG/Attribute/viewBox)
 
@@ -314,16 +272,16 @@ footer-links:
 
 
 
-## 添加网站计数
+## 网站计数功能
 
-网站统计[由不蒜子](http://busuanzi.ibruce.info/)提供支持，就是可以统计网站当前访问次数和人数。配置也非常简单，[官方指引](http://ibruce.info/2015/04/04/busuanzi/#more)在这里。
+网站统计[由不蒜子](http://busuanzi.ibruce.info/)提供支持，可以统计网站当前访问次数和人数。配置也非常简单[官方指引](http://ibruce.info/2015/04/04/busuanzi/#more)在这里。但现在不允许注册初始化，因此统计数据仅供参考，正在寻找其他统计工具。
 
 ### 修改页面html
 
 想让统计显示在哪个页面，需要修改那个页面的html，增加如下内容：
 
 ```html
-<!--不算子网站访客统计-->
+<!--不蒜子网站访客统计-->
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>
 <!-- pv的方式，单个用户连续点击n篇文章，记录n次访问量 -->
@@ -372,4 +330,4 @@ _include/svg-icons.html生成社交头像的链接
 
 感谢Jekyll提供的技术支持才能有这个博客。
 
-感谢[LOFFER](https://fromendworld.github.io/LOFFER/document/)提供的原始模板，我在其上进行的二次开发。
+感谢[LOFFER](https://fromendworld.github.io/LOFFER/document/)和lemonchann提供的原始模板，我在其上进行的二次开发。
