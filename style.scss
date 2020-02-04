@@ -524,7 +524,8 @@ nav {
   background-color: $background-toc-color;
   z-index: 4;
   padding: 60px 0 0 0;
-  overflow: scroll;    
+  overflow-y: scroll;
+  min-width: 0;    
 
   &:before{
     content:"目录";
@@ -544,6 +545,8 @@ nav {
     display:none;
   }
 }
+
+// Hide Scroll Bar
 
 .toc::-webkit-scrollbar { width: 0 !important }
 .toc { -ms-overflow-style: none; }
