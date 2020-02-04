@@ -5,9 +5,11 @@
     {% include nav.html %}
 
     {% if page.toc==true %}
+    <div class="toc-outer">
       <aside class="toc">
         {% include toc.html html=content %}
       </aside>
+    </div>
     {% endif %}
 
     <div id="main" role="main" class="wrapper-content">

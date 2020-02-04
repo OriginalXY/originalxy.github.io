@@ -517,13 +517,15 @@ nav {
 // TOC
 
 .toc {
-  width: 300px;
-  height: 100%;
-  left: 30%;
-  position: fixed;
+  left: 0;
+  top: 0;
+  right: -17px;
+  bottom: 0;
+  position: absolute;
   background-color: $background-toc-color;
   z-index: 4;
   padding: 60px 0 0 0;
+  overflow-x: hidden;
   overflow-y: scroll;
   
   &:before{
@@ -547,9 +549,13 @@ nav {
 
 // Hide Scroll Bar
 
-.toc::-webkit-scrollbar { width: 0 !important }
-.toc { -ms-overflow-style: none; }
-.toc { overflow: -moz-scrollbars-none; }
+.toc-outer {
+  position: fixed;
+  width: 300px;
+  height: 100%;
+  left: 30%;
+  overflow: hidden;
+}
 
 @media screen and (max-width:2200px) and (min-width:1200px){
   .withtoc{

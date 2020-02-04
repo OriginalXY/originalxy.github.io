@@ -14,10 +14,8 @@ toc: true
 
 <!-- more -->
 
-## 开始
-## 开始
-## 开始
-## 开始
+## Github配置
+
 先看下博客整体效果。[预览我的博客](https://originalxy.github.io/)
 
 - Powered By Jekyll
@@ -41,27 +39,27 @@ toc: true
 - 其他功能正在规划中...
   
 
-## 建立博客Git仓库
+### 建立Git仓库
 
 首先你要在[github](https://github.com/)上有自己博客仓库，用来生成和存放博客文章。
 
-## 修改博客仓库名称
+### 修改仓库名称
 
 进到你自己的博客仓库，修改博客仓库名称成你自己的用户名。github page解析的时候找的是这个 username.github.io的仓库名。
 
 此时，不出意外的话，打开域名https://username.github.io 就能看到你刚搭建的博客了。*注意替换username成你自己的github用户名*。
 
-## 博客配置
+### 博客配置
 
 博客的配置文件是仓库根目录下的_config.yml文件，直接点开它编辑。
 
 你还需要更改以下配置：
 
-### 名称和描述
+#### 名称和描述
 
 name和description分别是博客名称和描述，自己任意写点啥。
 
-### 网址配置
+#### 网址配置
 
 ```
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
@@ -79,7 +77,7 @@ url: https://yourname.github.io
 
 关于文章的**命名格式**：博客文章必须按照统一的命名格式 `yyyy-mm-dd-blogName.md` 比如我这篇博客的名字是`2019-11-22-create_blog_with_github_pages.md`
 
-## 本地Jekyll配置
+## Jekyll配置
 
 到目前为止，我们提交的文章都是必须上传到github仓库才能预览。如果你想写完在本地浏览器看一下效果在上传也可以
 
@@ -146,7 +144,7 @@ url: https://yourname.github.io
 
 4. `$ tasklist|findstr 312964`也能查看进程名，查到结束掉他同步骤3.
 
-##  Gitalk功能
+## 1. Gitalk功能
 
 这个是评论功能的配置。评论功能基于gitalk，在配置文件中找到gitalk配置项目：
 
@@ -165,7 +163,7 @@ gitalk:
 ![创建gitalk鉴权app](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/%E5%88%9B%E5%BB%BAgitalk%E9%89%B4%E6%9D%83app.png)
 
 
-## Google统计功能
+## 2. Google统计功能
 
 首先你要去注册一个[Google Analytics]( https://analytics.google.com/analytics/ )账号，它可以统计你博客网站的访问人数，访问来源等非常丰富的网站数据。
 
@@ -174,7 +172,7 @@ gitalk:
 google_analytics: UA-XXXXXXX-X
 ```  
 
-## 搜索功能
+## 3. 搜索文章功能
 
 搜索功能依赖[Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search)提供支持。
 
@@ -232,7 +230,7 @@ google_analytics: UA-XXXXXXX-X
 [html插入标签样式方法](https://blog.csdn.net/u014103733/article/details/72961366)
 
 
-## 社交链接功能
+## 4. 社交链接功能
 
 这里配置社交链接按钮，没配的不显示，可以配微博、知乎、邮箱、github等账号。其他你想加自己加上就可以。比如没有知乎链接，或者你想增加自定义的链接，都可以通过以下方法添加。以增加zhihu链接为例。
 
@@ -272,7 +270,7 @@ footer-links:
 
 
 
-## 网站计数功能
+## 5. 网站计数功能
 
 网站统计[由不蒜子](http://busuanzi.ibruce.info/)提供支持，可以统计网站当前访问次数和人数。配置也非常简单[官方指引](http://ibruce.info/2015/04/04/busuanzi/#more)在这里。但现在不允许注册初始化，因此统计数据仅供参考，正在寻找其他统计工具。
 
@@ -302,9 +300,102 @@ footer-links:
 
 eg.  `style="font-family:arial;color:Gainsboro;font-size:10px; text-align:right;width:200px;background-color:gray;`
 
+## 6. 滚动条功能
 
+默认肯定是overflow: auto，但想尝试将目录的滚动条隐藏起来保持美观（文章肯定要保留滚动条...），网上找到三种办法，[效果参考](http://caibaojian.com/demo/2018/3/scroll.html)。
 
-## 如何传图片
+### 方法一：计算滚动条宽度并隐藏
+
+滚动条通过定位把它隐藏起来，这个代码巧妙的向右移动了17个像素，刚好等于滚动条的宽度。这个值是手动调试得来的。在chrome和IE没发现问题。[效果参考](http://caibaojian.com/demo/2018/3/scroll2.html)。
+
+```html
+<div class="outer-container">
+    <div class="inner-container">
+    	......
+    </div>
+</div>
+```
+
+```css
+.outer-container{
+	width: 360px;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+}
+.inner-container{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: -17px;
+	bottom: 0;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+```
+### 方法二：使用三个容器包围
+
+该代码最早是在[Microsoft博客](https://docs.microsoft.com/zh-cn/archive/blogs/kurlak/hiding-vertical-scrollbars-with-pure-css-in-chrome-ie-6-firefox-opera-and-safari)上看到的，跟上面的思路差不多，只不过里面又加多了一个盒子，将内容限制在盒子里面了。这样子就看不到滚动条同时也可以滚动。[效果参考](http://caibaojian.com/demo/2018/3/scroll3.html)
+
+```html
+ <div class="outer-container">
+     <div class="inner-container">
+        <div class="content">
+            ......
+        </div>
+     </div>
+ </div>
+```
+
+```css
+.element, .outer-container {
+  width: 200px;
+  height: 200px;
+}
+
+.outer-container {
+  border: 5px solid purple;
+  position: relative;
+  overflow: hidden;
+}
+
+.inner-container {
+  position: absolute;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.inner-container::-webkit-scrollbar {
+  display: none;
+}
+```
+### 方法三：css隐藏滚动条
+
+通过CSS隐藏滚动条的方法，不过这个方法不兼容IE和Firefox，做移动端的可以使用。那就是自定义滚动条的伪对象选择器::-webkit-scrollbar，关于webkit-scrollbar可以[参考文章](http://caibaojian.com/webkit-scrollbar.html)，[效果参考](http://caibaojian.com/demo/2018/3/scroll4.html)
+
+```css
+.element {
+  overflow-y: scroll;
+}
+
+// Chrome和Safari
+.element::-webkit-scrollbar { 
+  width: 0 !important 
+}
+
+// IE 10+
+.element { 
+  -ms-overflow-style: none; 
+}
+
+// Firefox
+.element { 
+  overflow: -moz-scrollbars-none; 
+}
+```
+
+## 6. 如何传图片
 
 写markdown最头疼的就是图片的插入了，推荐用[PicGo](https://picgo.github.io/PicGo-Doc/zh/guide/)一键上传得到链接，直接可以插入markdown。
 
