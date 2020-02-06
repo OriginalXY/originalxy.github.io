@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "学渣本科编程的自我救赎"
+title: "学渣的本愿：编程基础"
 date:   2018-12-2
 tags: [c++]
 comments: true
