@@ -47,7 +47,7 @@ toc: true
 
 进到你自己的博客仓库，修改博客仓库名称成你自己的用户名。github page解析的时候找的是这个 username.github.io的仓库名。
 
-此时，不出意外的话，打开域名https://username.github.io 就能看到你刚搭建的博客了。*注意替换username成你自己的github用户名*。
+此时，不出意外的话，打开域名https://username.github.io 就能看到你刚搭建的博客了。注意替换username成你自己的github用户名。
 
 ### 博客配置
 
@@ -85,7 +85,7 @@ url: https://yourname.github.io
 
 在官网下载，[点这里]( https://rubyinstaller.org/downloads/ )下载适合系统版本的 [Ruby+Devkit](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.5-1/rubyinstaller-devkit-2.6.5-1-x64.exe) 包。安装，弹出的窗口选3
 
-![安装ruby](https://github.com/lemonchann/lemonchann.github.io/raw/master/images/2019-11-22-create_blog_with_github_pages/%E5%AE%89%E8%A3%85ruby.PNG)
+![安装ruby](https://originalxy.github.io/images/2018-11-22-blog_with_github_pages/安装ruby.png)
 
 `gem -v` `ruby -v` 查看得到版本号就说明成功了。
 
@@ -110,7 +110,7 @@ url: https://yourname.github.io
 
 ` jekyll server` 输入之后打开浏览器，不出意外输入localhost:4000即可看到博客内容。
 
-![jekyll_server安装](https://github.com/lemonchann/lemonchann.github.io/raw/master/images/2019-11-22-create_blog_with_github_pages/jekyll_server%E6%88%90%E5%8A%9F.PNG)
+![jekyll_server安装](https://originalxy.github.io/images/2018-11-22-blog_with_github_pages/jekyll_server成功.png)
 
 如果你没这么顺利，那以下的错误解决供参考
 
@@ -118,17 +118,17 @@ url: https://yourname.github.io
 
 - 缺少某个包
 
-![jekyll_error](https://github.com/lemonchann/lemonchann.github.io/raw/master/images/2019-11-22-create_blog_with_github_pages/jekyll_error.PNG)
+![jekyll_error](https://originalxy.github.io/images/2018-11-22-blog_with_github_pages/jekyll_error.png)
 
 如图，缺少jekyll-paginate，安装即可`gem install jekyll-paginate`若还提示缺少就装啥。
 
-![jekyll_server_erro错误2](https://github.com/lemonchann/lemonchann.github.io/raw/master/images/2019-11-22-create_blog_with_github_pages/jekyll_server_erro%E9%94%99%E8%AF%AF2.PNG)
+![jekyll_server_erro错误2](https://originalxy.github.io/images/2018-11-22-blog_with_github_pages/jekyll_server_erro错误2.png)
 
 - 权限拒绝
 
   socket.rb:201:in `bind` :Permission denied - bind(2) for 127.0.0.1:4000 (Error:EACCES)
 
-![jekyll_error_EASSE](https://github.com/lemonchann/lemonchann.github.io/raw/master/images/2019-11-22-create_blog_with_github_pages/jekyll_error_EASSE.png)
+![jekyll_error_EASSE](https://originalxy.github.io/images/2018-11-22-blog_with_github_pages/jekyll_error_EASSE.png)
 
 出现这个错误一般是4000端口被占用了，解决方法：
 
@@ -136,11 +136,11 @@ url: https://yourname.github.io
 
 2. 查看最后一列数字就是PID=312964
 
-   ![netstat查看](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/%E6%9F%A5%E7%9C%8Bnetstat.png)
+   ![netstat查看](https://originalxy.github.io/images/2018-11-22-blog_with_github_pages/查看netstat.png)
 
 3. 打开windows资源管理器，结束该进程.
 
-   ![任务管理器](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86%E5%99%A8.png)
+   ![任务管理器](https://originalxy.github.io/images/2018-11-22-blog_with_github_pages/任务管理器.png)
 
 4. `$ tasklist|findstr 312964`也能查看进程名，查到结束掉他同步骤3.
 
@@ -160,7 +160,7 @@ gitalk:
 
 原理是利用github的issues评论文章。其中clientID和clientSecret需要[点击这里创建](https://github.com/settings/applications/new)
 
-![创建gitalk鉴权app](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/%E5%88%9B%E5%BB%BAgitalk%E9%89%B4%E6%9D%83app.png)
+![创建Gitalk鉴权](https://originalxy.github.io/images/2018-11-22-blog_with_github_pages/创建Gitalk鉴权.png)
 
 
 ## 2. Google统计功能
@@ -221,7 +221,7 @@ google_analytics: UA-XXXXXXX-X
 
 配置完成，打开博客，你得到这样一个搜索框。
 
-![search_block](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/search_block.png)
+![search_block]https://originalxy.github.io/images/2018-11-22-blog_with_github_pages/search_block.png)
 
 ### 搜索框样式
 
@@ -257,16 +257,21 @@ footer-links:
 可见是先调用了svg-icon.html显示社交链接，所以修改_include/svg-icons.html增加zhihu链接
 
 ```html
-{% if site.footer-links.zhihu %}
-  <li><a href="https://zhihu.com/people/{{ site.footer-links.zhihu }}" class="icon-2 zhihu" title="ZhiHu"><svg viewBox="0 0 600 600"><path d="M170.54 148.13v217.54l23.43.01 7.71 26.37 42.01-26.37h49.53V148.13H170.54zm97.75 193.93h-27.94l-27.9 17.51-5.08-17.47-11.9-.04V171.75h72.82v170.31zm-118.46-94.39H97.5c1.74-27.1 2.2-51.59 2.2-73.46h51.16s1.97-22.56-8.58-22.31h-88.5c3.49-13.12 7.87-26.66 13.12-40.67 0 0-24.07 0-32.27 21.57-3.39 8.9-13.21 43.14-30.7 78.12 5.89-.64 25.37-1.18 36.84-22.21 2.11-5.89 2.51-6.66 5.14-14.53h28.87c0 10.5-1.2 66.88-1.68 73.44H20.83c-11.74 0-15.56 23.62-15.56 23.62h65.58C66.45 321.1 42.83 363.12 0 396.34c20.49 5.85 40.91-.93 51-9.9 0 0 22.98-20.9 35.59-69.25l53.96 64.94s7.91-26.89-1.24-39.99c-7.58-8.92-28.06-33.06-36.79-41.81L87.9 311.95c4.36-13.98 6.99-27.55 7.87-40.67h61.65s-.09-23.62-7.59-23.62v.01zm412.02-1.6c20.83-25.64 44.98-58.57 44.98-58.57s-18.65-14.8-27.38-4.06c-6 8.15-36.83 48.2-36.83 48.2l19.23 14.43zm-150.09-59.09c-9.01-8.25-25.91 2.13-25.91 2.13s39.52 55.04 41.12 57.45l19.46-13.73s-25.67-37.61-34.66-45.86h-.01zM640 258.35c-19.78 0-130.91.93-131.06.93v-101c4.81 0 12.42-.4 22.85-1.2 40.88-2.41 70.13-4 87.77-4.81 0 0 12.22-27.19-.59-33.44-3.07-1.18-23.17 4.58-23.17 4.58s-165.22 16.49-232.36 18.05c1.6 8.82 7.62 17.08 15.78 19.55 13.31 3.48 22.69 1.7 49.15.89 24.83-1.6 43.68-2.43 56.51-2.43v99.81H351.41s2.82 22.31 25.51 22.85h107.94v70.92c0 13.97-11.19 21.99-24.48 21.12-14.08.11-26.08-1.15-41.69-1.81 1.99 3.97 6.33 14.39 19.31 21.84 9.88 4.81 16.17 6.57 26.02 6.57 29.56 0 45.67-17.28 44.89-45.31v-73.32h122.36c9.68 0 8.7-23.78 8.7-23.78l.03-.01z"/></svg><!--[if lt IE 9]><em>YouTube</em><![endif]--></a></li>
-  {% endif %}
+{ % if site.footer-links.zhihu % } 
+  	<a href="https://zhihu.com/people/{{ site.footer-links.zhihu }}" class="icon-2 zhihu" title="ZhiHu">
+  	  <svg viewBox="0 0 600 600">
+  	    <path d="M170.54 148.13v217.54l23.43.01 7.71 26.37 42.01-26.37h49.53V148.13H170.54zm97.75 193.93h-27.94l-27.9 17.51-5.08-17.47-11.9-.04V171.75h72.82v170.31zm-118.46-94.39H97.5c1.74-27.1 2.2-51.59 2.2-73.46h51.16s1.97-22.56-8.58-22.31h-88.5c3.49-13.12 7.87-26.66 13.12-40.67 0 0-24.07 0-32.27 21.57-3.39 8.9-13.21 43.14-30.7 78.12 5.89-.64 25.37-1.18 36.84-22.21 2.11-5.89 2.51-6.66 5.14-14.53h28.87c0 10.5-1.2 66.88-1.68 73.44H20.83c-11.74 0-15.56 23.62-15.56 23.62h65.58C66.45 321.1 42.83 363.12 0 396.34c20.49 5.85 40.91-.93 51-9.9 0 0 22.98-20.9 35.59-69.25l53.96 64.94s7.91-26.89-1.24-39.99c-7.58-8.92-28.06-33.06-36.79-41.81L87.9 311.95c4.36-13.98 6.99-27.55 7.87-40.67h61.65s-.09-23.62-7.59-23.62v.01zm412.02-1.6c20.83-25.64 44.98-58.57 44.98-58.57s-18.65-14.8-27.38-4.06c-6 8.15-36.83 48.2-36.83 48.2l19.23 14.43zm-150.09-59.09c-9.01-8.25-25.91 2.13-25.91 2.13s39.52 55.04 41.12 57.45l19.46-13.73s-25.67-37.61-34.66-45.86h-.01zM640 258.35c-19.78 0-130.91.93-131.06.93v-101c4.81 0 12.42-.4 22.85-1.2 40.88-2.41 70.13-4 87.77-4.81 0 0 12.22-27.19-.59-33.44-3.07-1.18-23.17 4.58-23.17 4.58s-165.22 16.49-232.36 18.05c1.6 8.82 7.62 17.08 15.78 19.55 13.31 3.48 22.69 1.7 49.15.89 24.83-1.6 43.68-2.43 56.51-2.43v99.81H351.41s2.82 22.31 25.51 22.85h107.94v70.92c0 13.97-11.19 21.99-24.48 21.12-14.08.11-26.08-1.15-41.69-1.81 1.99 3.97 6.33 14.39 19.31 21.84 9.88 4.81 16.17 6.57 26.02 6.57 29.56 0 45.67-17.28 44.89-45.31v-73.32h122.36c9.68 0 8.7-23.78 8.7-23.78l.03-.01z"/>
+  	  </svg><!--[if lt IE 9]><em>YouTube</em><![endif]-->
+  	</a>
+  </li>
+  { % endif % }
 ```
 
 上面配置内容应该都能理解，`viewBox` 指定图片大小。
 
 主要是`path d=` 内容的获取，这里其实是指定svg图片的内容，我们可以从 [这里](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/brands/)获取到大部分svg素材，比如知乎的svg[在这](https://github.com/FortAwesome/Font-Awesome/blob/master/svgs/brands/zhihu.svg)，点`raw` 按钮查看源文件，复制`path d=`后面的内容到上面的配置即可。
 
-![zhihuSvg](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/zhihuSvg.png)
+![zhihuSvg](https://originalxy.github.io/images/2018-11-22-blog_with_github_pages/知乎svg.png)
 
 
 
@@ -401,7 +406,7 @@ eg.  `style="font-family:arial;color:Gainsboro;font-size:10px; text-align:right;
 
 PicGo支持图片上传github、SM.MS图床、阿里云、腾讯云等主流图床或云端。直接拖图片，上传云端、得到链接一步搞定，方便快捷。
 
-![PicGo](https://raw.githubusercontent.com/lemonchann/lemonchann.github.io/master/images/2019-11-22-create_blog_with_github_pages/PicGo.png)
+![PicGo](https://originalxy.github.io/images/2018-11-22-blog_with_github_pages/PicGo.png)
 
 ## 其他功能
 
