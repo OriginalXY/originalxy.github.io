@@ -2,13 +2,13 @@
 layout: post
 title: "学渣的本愿：编程基础"
 date:   2018-12-2
-tags: [c++]
+tags: [Programming]
 comments: true
 author: OriginalXY
 toc: true
 ---
 
-本博作为学渣要补补基础，第一版是C。因本人本科编程基础是从C出发，配上计算机基础偏向是。现在也有很多高校程序设计是从python出发，Anyway都一样（当然我知道很多人会去刷LeetCode，看剑指offer也可以，都是为了糊口饭吃，我菜所以飘过）之后会持续更新。
+本博作为学渣要补补基础，第一版是C++相关。因本人本科编程基础是从C出发，配上计算机基础偏向是。现在也有很多高校程序设计是从python出发，Anyway都一样（当然我知道很多人会去刷LeetCode，看剑指offer也可以，都是为了糊口饭吃，我菜所以飘过）之后会持续更新。
 
 ## 计算机基础综合
 
