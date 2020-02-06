@@ -17,7 +17,7 @@ Microsoft在2015年4月30日Build 开发者大会上正式宣布了 Visual Studi
 该编辑器也集成了所有一款现代编辑器所应该具备的特性，包括语法高亮(syntax high lighting)，可定制的热键绑定(customizable keyboard bindings)，括号匹配(bracket matching)以及代码片段收集(snippets)。Somasegar 也告诉笔者这款编辑器也拥有对 Git 的开箱即用的支持。引用[百度百科](https://baike.baidu.com/item/visual%20studio%20code/17514281?fr=aladdin)
 
 ## PlantUML
-**PlantUML 是一个开源项目，支持通过脚本绘图，所以 PlantUML 是一种建模语言。根据[官网描述](http://plantuml.com/zh/)，PlantUML 可以绘制如下种类的 UML 图：** 
+PlantUML 是一个开源项目，支持通过脚本绘图，所以 PlantUML 是一种建模语言。根据[官网描述](http://plantuml.com/zh/)，PlantUML 可以绘制如下种类的 UML 图： 
 
 > 时序图  
 > 用例图  
@@ -29,7 +29,7 @@ Microsoft在2015年4月30日Build 开发者大会上正式宣布了 Visual Studi
 > 部署图  
 > 定时图 
 
-**同时还支持以下非UML图:**
+同时还支持以下非UML图:
 
 > 线框图形界面  
 > 架构图  
