@@ -421,9 +421,3 @@ PicGo支持图片上传github、SM.MS图床、阿里云、腾讯云等主流图�
 _include/footer.html生成侧边栏
 
 _include/svg-icons.html生成社交头像的链接
-
-## 致谢
-
-感谢Jekyll提供的技术支持才能有这个博客。
-
-感谢[LOFFER](https://fromendworld.github.io/LOFFER/document/)和lemonchann提供的原始模板，我在其上进行的二次开发。
