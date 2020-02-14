@@ -17,7 +17,7 @@ toc: true
 *  安装gitbook，打开win cmd输入npm install gitbook-cli -g   
 > 常用命令：  
 > **gitbook -V 查看版本**    
-> **gitbook serve 生成网页localhost:4000预览** - 命令输入要进到SUMMARY.md所在目录![gitbook_serve](https://originalxy.github.io/images/2019-11-18-gitbook_tool/gitbook_serve.png)    
+> **gitbook serve 生成网页localhost:4000预览** - 命令输入要进到SUMMARY.md所在目录![gitbook_serve](https://cdn.jsdelivr.net/gh/OriginalXY/originalxy.github.io/images/2019-11-18-gitbook_tool/gitbook_serve.png)    
 > gitbook init //初始化目录文件   
 > gitbook help //列出gitbook所有的命令   
 > gitbook --help //输出gitbook-cli的帮助信息   
@@ -38,7 +38,7 @@ toc: true
 * 电子书生成下载依赖calibre否则会报错，建议先安装，[下载地址](https://calibre-ebook.com/download)
 * 配置calibre环境变量，我的目录是C:\Program Files\Calibre2
 
-  ![环境变量设置](https://originalxy.github.io/images/2019-11-18-gitbook_tool/环境变量设置.png)
+  ![环境变量设置](https://cdn.jsdelivr.net/gh/OriginalXY/originalxy.github.io/images/2019-11-18-gitbook_tool/环境变量设置.png)
 
 ### 生成PDF
 
@@ -67,7 +67,7 @@ Gitbook上左上角为个人仓库，不能参与协同编辑，左中为组织�
 
 - `gitbook build` 将书籍内容输出到默认目录，也就是当前目录下的 _book 目录
 
-  ![gitbook_pdf](https://originalxy.github.io/images/2019-11-18-gitbook_tool//gitbook_pdf.png)
+  ![gitbook_pdf](https://cdn.jsdelivr.net/gh/OriginalXY/originalxy.github.io/images/2019-11-18-gitbook_tool/gitbook_pdf.png)
 
 - 创建gh-pages分支，并且删除不需要的文件,仅保留git目录和 _book目录
 > $ git checkout --orphan gh-pages   

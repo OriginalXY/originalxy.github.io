@@ -48,15 +48,15 @@ PlantUML 是一个开源项目，支持通过脚本绘图，所以 PlantUML 是�
 语法简单明了，查看以下[官方教程](http://plantuml.com/zh/sequence-diagram)，截取几个官网的事例图片在这里
 
 - 活动图
-![活动图](https://originalxy.github.io/images/2019-9-12-vscode_plantUML/活动图.png)
+![活动图](https://cdn.jsdelivr.net/gh/OriginalXY/originalxy.github.io/images/2019-9-12-vscode_plantUML/活动图.png)
 - 类图
-![类图](https://originalxy.github.io/images/2019-9-12-vscode_plantUML/类图.png)
+![类图](https://cdn.jsdelivr.net/gh/OriginalXY/originalxy.github.io/images/2019-9-12-vscode_plantUML/类图.png)
 - 时序图
-![时序图](https://originalxy.github.io/images/2019-9-12-vscode_plantUML/时序图.png)
+![时序图](https://cdn.jsdelivr.net/gh/OriginalXY/originalxy.github.io/images/2019-9-12-vscode_plantUML/时序图.png)
 - 用例图
-![用例图](https://originalxy.github.io/images/2019-9-12-vscode_plantUML/用例图.png)
+![用例图](https://cdn.jsdelivr.net/gh/OriginalXY/originalxy.github.io/images/2019-9-12-vscode_plantUML/用例图.png)
 - 状态图
-![状态图](https://originalxy.github.io/images/2019-9-12-vscode_plantUML/状态图.png)
+![状态图](https://cdn.jsdelivr.net/gh/OriginalXY/originalxy.github.io/images/2019-9-12-vscode_plantUML/状态图.png)
 
 ### 安装
 - 安装graphviz-2.38.msi
