@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "学渣的本愿：编程基础"
-date:   2018-12-2
+date:   2019-12-2
 tags: [Programming]
 comments: true
 author: OriginalXY
@@ -33,7 +33,7 @@ toc: true
 > 出版社：机械工业出版社  
 > 书号：ISBN 9787111127482   
 
-![数据结构](https://originalxy.github.io/images/2018-12-2-basic_learning/数据结构.png)
+![数据结构](https://originalxy.github.io/images/2019-12-2-basic_learning/数据结构.png)
 
 挑战程序设计竞赛
 
@@ -43,7 +43,7 @@ toc: true
 > 出版社：人民邮电出版社  
 > 书号：ISBN 9787115320100   
 
-![挑战程序设计竞赛](https://originalxy.github.io/images/2018-12-2-basic_learning/挑战程序设计竞赛.png)
+![挑战程序设计竞赛](https://originalxy.github.io/images/2019-12-2-basic_learning/挑战程序设计竞赛.png)
 
 - 计算机组成原理  
 
@@ -54,7 +54,7 @@ toc: true
 > 出版社：机械工业出版社  
 > 书号：ISBN 9787111202141    
 
-![计算机组成原理](https://originalxy.github.io/images/2018-12-2-basic_learning/计算机组成原理.png)
+![计算机组成原理](https://originalxy.github.io/images/2019-12-2-basic_learning/计算机组成原理.png)
 
 - 操作系统 
 
@@ -65,7 +65,7 @@ toc: true
 > 出版社：机械工业出版社  
 > 书号：ISBN 9787111604365     
 
-![操作系统](https://originalxy.github.io/images/2018-12-2-basic_learning/操作系统.png)
+![操作系统](https://originalxy.github.io/images/2019-12-2-basic_learning/操作系统.png)
 
 - 计算机网络 
 
@@ -76,7 +76,7 @@ toc: true
 > 出版社：机械工业出版社  
 > 书号：ISBN 9787111453789    
 
-![计算机网络](https://originalxy.github.io/images/2018-12-2-basic_learning/计算机网络.png)
+![计算机网络](https://originalxy.github.io/images/2019-12-2-basic_learning/计算机网络.png)
 
 ### 视频参考
 
@@ -105,7 +105,7 @@ C++ Primer 中文版（第五版）
 > 出版社：电子工业出版社  
 > 书号：ISBN 9787121155352  
  
-![C++ Primer 中文版](https://originalxy.github.io/images/2018-12-2-basic_learning/C++ Primer 中文版.png)
+![C++ Primer 中文版](https://originalxy.github.io/images/2019-12-2-basic_learning/C++ Primer 中文版.png)
 
 C++ 大学教程（第九版）
 
@@ -114,7 +114,7 @@ C++ 大学教程（第九版）
 > 出版社：电子工业出版社  
 > 书号：ISBN 9787121290015  
  
-![C++ 大学教程](https://originalxy.github.io/images/2018-12-2-basic_learning/C++ 大学教程.png)
+![C++ 大学教程](https://originalxy.github.io/images/2019-12-2-basic_learning/C++ 大学教程.png)
 
 ## C++进阶
 
@@ -127,7 +127,7 @@ STL提供了丰富的算法库支持和各种容器。C++标准库提供了包�
 > 出版社：华中科技大学出版社  
 > 书号：ISBN 9787560926995  
 
-![STL源码剖析](https://originalxy.github.io/images/2018-12-2-basic_learning/STL源码剖析.png)
+![STL源码剖析](https://originalxy.github.io/images/2019-12-2-basic_learning/STL源码剖析.png)
 
 Effective C++
 
@@ -138,7 +138,7 @@ Effective C++
 > 出版社：电子工业出版社  
 > 书号：ISBN 9787121123320  
 
-![Effective C++](https://originalxy.github.io/images/2018-12-2-basic_learning/Effective C++.png)
+![Effective C++](https://originalxy.github.io/images/2019-12-2-basic_learning/Effective C++.png)
 
 More Effective C++（中文版）
 
@@ -149,7 +149,7 @@ More Effective C++（中文版）
 > 出版社：电子工业出版社  
 > 书号：ISBN 9787121125706  
 
-![More Effective C++](https://originalxy.github.io/images/2018-12-2-basic_learning/More Effective C++.png)
+![More Effective C++](https://originalxy.github.io/images/2019-12-2-basic_learning/More Effective C++.png)
 
 深度探索C++对象模型
 
@@ -158,7 +158,7 @@ More Effective C++（中文版）
 > 出版社：电子工业出版社  
 > 书号：ISBN 9787121149528  
 
-![深度探索C++对象模型](https://originalxy.github.io/images/2018-12-2-basic_learning/深度探索C++对象模型.png)
+![深度探索C++对象模型](https://originalxy.github.io/images/201-12-2-basic_learning/深度探索C++对象模型.png)
 
 深入理解C++11
 
@@ -169,7 +169,7 @@ More Effective C++（中文版）
 > 出版社：机械工业出版社  
 > 书号：ISBN 9787111426608  
 
-![深入理解C++11](https://originalxy.github.io/images/2018-12-2-basic_learning/深入理解C++11.png)
+![深入理解C++11](https://originalxy.github.io/images/2019-12-2-basic_learning/深入理解C++11.png)
 
 ## Linux基础
 
@@ -182,7 +182,7 @@ More Effective C++（中文版）
 > 出版社：人民邮电出版社  
 > 书号：ISBN 9787115226266  
 
-![鸟哥的Linux私房菜](https://originalxy.github.io/images/2018-12-2-basic_learning/鸟哥的Linux私房菜.png)
+![鸟哥的Linux私房菜](https://originalxy.github.io/images/2019-12-2-basic_learning/鸟哥的Linux私房菜.png)
 
 Linux Shell脚本攻略
 
@@ -193,7 +193,7 @@ shell script 就类似win的批处理脚本。
 > 出版社：人民邮电出版社  
 > 书号：ISBN 9787115264725  
 
-![Linux Shell脚本攻略](https://originalxy.github.io/images/2018-12-2-basic_learning/Linux Shell脚本攻略.png)
+![Linux Shell脚本攻略](https://originalxy.github.io/images/2019-12-2-basic_learning/Linux Shell脚本攻略.png)
 
 ## Linux进阶
 
@@ -206,7 +206,7 @@ UNIX环境高级编程
 > 出版社：人民邮电出版社  
 > 书号：ISBN 9787115147318  
 
-![UNIX环境高级编程](https://originalxy.github.io/images/2018-12-2-basic_learning/UNIX环境高级编程.png)
+![UNIX环境高级编程](https://originalxy.github.io/images/2019-12-2-basic_learning/UNIX环境高级编程.png)
 
 UNIX网络编程 卷1：套接字联网API（第3版）
 
@@ -217,7 +217,7 @@ UNIX网络编程 卷1：套接字联网API（第3版）
 > 出版社：人民邮电出版社  
 > 书号：ISBN 9787115228406  
 
-![UNIX网络编程 卷1：套接字联网API](https://originalxy.github.io/images/2018-12-2-basic_learning/UNIX网络编程 卷1：套接字联网API.png)
+![UNIX网络编程 卷1：套接字联网API](https://originalxy.github.io/images/2019-12-2-basic_learning/UNIX网络编程 卷1：套接字联网API.png)
 
 UNIX网络编程 卷2：进程间通信（第2版）
 
@@ -226,7 +226,7 @@ UNIX网络编程 卷2：进程间通信（第2版）
 > 出版社：人民邮电出版社  
 > 书号：ISBN 9787115367204  
 
-![UNIX网络编程 卷2：进程间通信](https://originalxy.github.io/images/2018-12-2-basic_learning/UNIX网络编程 卷2：进程间通信.png)
+![UNIX网络编程 卷2：进程间通信](https://originalxy.github.io/images/2019-12-2-basic_learning/UNIX网络编程 卷2：进程间通信.png)
 
 ## 数据库和存储
 
@@ -245,7 +245,7 @@ SQL必知必会
 > 出版社：人民邮电出版社  
 > 书号：ISBN 787115313980  
 
-![SQL必知必会](https://originalxy.github.io/images/2018-12-2-basic_learning/SQL必知必会.png)
+![SQL必知必会](https://originalxy.github.io/images/2019-12-2-basic_learning/SQL必知必会.png)
 
 高性能MySQL
 
@@ -254,7 +254,7 @@ SQL必知必会
 > 出版社：电子工业出版社  
 > 书号：ISBN 9787121198854  
 
-![高性能MySQL](https://originalxy.github.io/images/2018-12-2-basic_learning/高性能MySQL.png)
+![高性能MySQL](https://originalxy.github.io/images/2019-12-2-basic_learning/高性能MySQL.png)
 
 ## 算法基础
 
