@@ -85,7 +85,7 @@ url: https://yourname.github.io
 
 在官网下载，[点这里]( https://rubyinstaller.org/downloads/ )下载适合系统版本的 [Ruby+Devkit](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.5-1/rubyinstaller-devkit-2.6.5-1-x64.exe) 包。安装，弹出的窗口选3
 
-![安装ruby](https://originalxy.github.io/images/2019-11-22-blog_with_github_pages/安装ruby.png)
+![安装ruby](https://cdn.jsdelivr.net/gh/OriginalXY/originalxy.github.io/images/2019-11-22-blog_with_github_pages/安装ruby.png)
 
 `gem -v` `ruby -v` 查看得到版本号就说明成功了。
 
@@ -110,7 +110,7 @@ url: https://yourname.github.io
 
 ` jekyll server` 输入之后打开浏览器，不出意外输入localhost:4000即可看到博客内容。
 
-![jekyll_server安装](https://originalxy.github.io/images/2019-11-22-blog_with_github_pages/jekyll_server成功.png)
+![jekyll_server安装](https://cdn.jsdelivr.net/gh/OriginalXY/originalxy.github.io/images/2019-11-22-blog_with_github_pages/jekyll_server成功.png)
 
 如果你没这么顺利，那以下的错误解决供参考
 
@@ -118,17 +118,17 @@ url: https://yourname.github.io
 
 - 缺少某个包
 
-![jekyll_error](https://originalxy.github.io/images/2019-11-22-blog_with_github_pages/jekyll_error.png)
+![jekyll_error](https://cdn.jsdelivr.net/gh/OriginalXY/originalxy.github.io/images/2019-11-22-blog_with_github_pages/jekyll_error.png)
 
 如图，缺少jekyll-paginate，安装即可`gem install jekyll-paginate`若还提示缺少就装啥。
 
-![jekyll_server_erro错误2](https://originalxy.github.io/images/2019-11-22-blog_with_github_pages/jekyll_server_erro错误2.png)
+![jekyll_server_erro错误2](https://cdn.jsdelivr.net/gh/OriginalXY/originalxy.github.io/images/2019-11-22-blog_with_github_pages/jekyll_server_erro错误2.png)
 
 - 权限拒绝
 
   socket.rb:201:in `bind` :Permission denied - bind(2) for 127.0.0.1:4000 (Error:EACCES)
 
-![jekyll_error_EASSE](https://originalxy.github.io/images/2019-11-22-blog_with_github_pages/jekyll_error_EASSE.png)
+![jekyll_error_EASSE](https://cdn.jsdelivr.net/gh/OriginalXY/originalxy.github.io/images/2019-11-22-blog_with_github_pages/jekyll_error_EASSE.png)
 
 出现这个错误一般是4000端口被占用了，解决方法：
 
@@ -136,11 +136,11 @@ url: https://yourname.github.io
 
 2. 查看最后一列数字就是PID=312964
 
-   ![netstat查看](https://originalxy.github.io/images/2019-11-22-blog_with_github_pages/查看netstat.png)
+   ![netstat查看](https://cdn.jsdelivr.net/gh/OriginalXY/originalxy.github.io/images/2019-11-22-blog_with_github_pages/查看netstat.png)
 
 3. 打开windows资源管理器，结束该进程.
 
-   ![任务管理器](https://originalxy.github.io/images/2019-11-22-blog_with_github_pages/任务管理器.png)
+   ![任务管理器](https://cdn.jsdelivr.net/gh/OriginalXY/originalxy.github.io/images/2019-11-22-blog_with_github_pages/任务管理器.png)
 
 4. `$ tasklist|findstr 312964`也能查看进程名，查到结束掉他同步骤3.
 
@@ -160,7 +160,7 @@ gitalk:
 
 原理是利用github的issues评论文章。其中clientID和clientSecret需要[点击这里创建](https://github.com/settings/applications/new)
 
-![创建Gitalk鉴权](https://originalxy.github.io/images/2019-11-22-blog_with_github_pages/创建Gitalk鉴权.png)
+![创建Gitalk鉴权](https://cdn.jsdelivr.net/gh/OriginalXY/originalxy.github.io/images/2019-11-22-blog_with_github_pages/创建Gitalk鉴权.png)
 
 
 ## 2. Google统计功能
@@ -221,7 +221,7 @@ google_analytics: UA-XXXXXXX-X
 
 配置完成，打开博客，你得到这样一个搜索框。
 
-![search_block]https://originalxy.github.io/images/2019-11-22-blog_with_github_pages/search_block.png)
+![search_block](https://cdn.jsdelivr.net/gh/OriginalXY/originalxy.github.io/images/2019-11-22-blog_with_github_pages/search_block.png)
 
 ### 搜索框样式
 
@@ -271,7 +271,7 @@ footer-links:
 
 主要是`path d=` 内容的获取，这里其实是指定svg图片的内容，我们可以从 [这里](https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/brands/)获取到大部分svg素材，比如知乎的svg[在这](https://github.com/FortAwesome/Font-Awesome/blob/master/svgs/brands/zhihu.svg)，点`raw` 按钮查看源文件，复制`path d=`后面的内容到上面的配置即可。
 
-![zhihuSvg](https://originalxy.github.io/images/2019-11-22-blog_with_github_pages/知乎svg.png)
+![zhihuSvg](https://cdn.jsdelivr.net/gh/OriginalXY/originalxy.github.io/images/2019-11-22-blog_with_github_pages/知乎svg.png)
 
 
 
@@ -406,7 +406,7 @@ eg.  `style="font-family:arial;color:Gainsboro;font-size:10px; text-align:right;
 
 PicGo支持图片上传github、SM.MS图床、阿里云、腾讯云等主流图床或云端。直接拖图片，上传云端、得到链接一步搞定，方便快捷。
 
-![PicGo](https://originalxy.github.io/images/2019-11-22-blog_with_github_pages/PicGo.png)
+![PicGo](https://cdn.jsdelivr.net/gh/OriginalXY/originalxy.github.io/images/2019-11-22-blog_with_github_pages/PicGo.png)
 
 ## 其他功能
 
