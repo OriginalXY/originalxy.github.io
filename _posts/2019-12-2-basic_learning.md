@@ -24,7 +24,7 @@ toc: true
 
 我觉得我本科学的教材就很好。
 
-- 数据结构 
+#### 数据结构 
 
 数据结构与算法分析 : C语言描述 
 
@@ -45,7 +45,7 @@ toc: true
 
 ![挑战程序设计竞赛](https://originalxy.github.io/images/2019-12-2-basic_learning/挑战程序设计竞赛.png)
 
-- 计算机组成原理  
+#### 计算机组成原理  
 
 计算机组成与设计：硬件/软件接口
 
@@ -56,7 +56,7 @@ toc: true
 
 ![计算机组成原理](https://originalxy.github.io/images/2019-12-2-basic_learning/计算机组成原理.png)
 
-- 操作系统 
+#### 操作系统 
 
 操作系统概念
 
@@ -67,7 +67,7 @@ toc: true
 
 ![操作系统](https://originalxy.github.io/images/2019-12-2-basic_learning/操作系统.png)
 
-- 计算机网络 
+#### 计算机网络 
 
 计算机网络--自顶向下方法
 
@@ -96,15 +96,13 @@ toc: true
 
 **语法是一门语言的基础。**C++的基础语句和语法和C是很像的，最大的不同在class和异常处理机制，还有模板的应用，所以有C基础语法学起来是很快，没有C基础一样可以学。
 
-- C++
-
 C++ Primer 中文版（第五版）
 
 > 原书名：C++ Primer, 5th Edition  
 > 作者：[美] Stanley B. Lippman / Josée Lajoie / Barbara E. Moo  
 > 出版社：电子工业出版社  
-> 书号：ISBN 9787121155352  
- 
+> 书号：ISBN 9787121155352
+
 ![C++ Primer 中文版](https://originalxy.github.io/images/2019-12-2-basic_learning/C++ Primer 中文版.png)
 
 C++ 大学教程（第九版）
@@ -112,8 +110,8 @@ C++ 大学教程（第九版）
 > 原书名：C++ How to Program  
 > 作者：[美]Paul Deitel / Harvey Deitel    
 > 出版社：电子工业出版社  
-> 书号：ISBN 9787121290015  
- 
+> 书号：ISBN 9787121290015
+
 ![C++ 大学教程](https://originalxy.github.io/images/2019-12-2-basic_learning/C++ 大学教程.png)
 
 ## C++进阶
@@ -125,7 +123,7 @@ STL提供了丰富的算法库支持和各种容器。C++标准库提供了包�
 > 原书名：STL源码剖析  
 > 作者：侯捷      
 > 出版社：华中科技大学出版社  
-> 书号：ISBN 9787560926995  
+> 书号：ISBN 9787560926995
 
 ![STL源码剖析](https://originalxy.github.io/images/2019-12-2-basic_learning/STL源码剖析.png)
 
@@ -136,7 +134,7 @@ Effective C++
 > 原书名：Effective C++:55 Specific Ways to Improve Your Programs and Designs,3rd Edition  
 > 作者：侯捷      
 > 出版社：电子工业出版社  
-> 书号：ISBN 9787121123320  
+> 书号：ISBN 9787121123320
 
 ![Effective C++](https://originalxy.github.io/images/2019-12-2-basic_learning/Effective C++.png)
 
@@ -147,7 +145,7 @@ More Effective C++（中文版）
 > 原书名：More Effective C++:35 Specific Ways to Improve Your Programs and Designs  
 > 作者：侯捷      
 > 出版社：电子工业出版社  
-> 书号：ISBN 9787121125706  
+> 书号：ISBN 9787121125706
 
 ![More Effective C++](https://originalxy.github.io/images/2019-12-2-basic_learning/More Effective C++.png)
 
@@ -156,7 +154,7 @@ More Effective C++（中文版）
 > 原书名：Inside the C++ Object Model  
 > 作者：侯捷      
 > 出版社：电子工业出版社  
-> 书号：ISBN 9787121149528  
+> 书号：ISBN 9787121149528
 
 ![深度探索C++对象模型](https://originalxy.github.io/images/201-12-2-basic_learning/深度探索C++对象模型.png)
 
@@ -167,7 +165,7 @@ More Effective C++（中文版）
 > 原书名：深入理解C++11：C++ 11新特性解析与应用  
 > 作者：Michael Wong / IBM XL编译器中国开发团队  
 > 出版社：机械工业出版社  
-> 书号：ISBN 9787111426608  
+> 书号：ISBN 9787111426608
 
 ![深入理解C++11](https://originalxy.github.io/images/2019-12-2-basic_learning/深入理解C++11.png)
 
@@ -180,7 +178,7 @@ More Effective C++（中文版）
 > 原书名：鸟哥的Linux私房菜  
 > 作者：鸟哥  
 > 出版社：人民邮电出版社  
-> 书号：ISBN 9787115226266  
+> 书号：ISBN 9787115226266
 
 ![鸟哥的Linux私房菜](https://originalxy.github.io/images/2019-12-2-basic_learning/鸟哥的Linux私房菜.png)
 
@@ -191,7 +189,7 @@ shell script 就类似win的批处理脚本。
 > 原书名：Linux Shell Scripting Cookbook  
 > 作者：(印)拉克什曼  
 > 出版社：人民邮电出版社  
-> 书号：ISBN 9787115264725  
+> 书号：ISBN 9787115264725
 
 ![Linux Shell脚本攻略](https://originalxy.github.io/images/2019-12-2-basic_learning/Linux Shell脚本攻略.png)
 
@@ -204,7 +202,7 @@ UNIX环境高级编程
 > 原书名：Advanced Programming in the UNIX Environment  
 > 作者： [美]W.Richard Stevens / Stephen A.Rago  
 > 出版社：人民邮电出版社  
-> 书号：ISBN 9787115147318  
+> 书号：ISBN 9787115147318
 
 ![UNIX环境高级编程](https://originalxy.github.io/images/2019-12-2-basic_learning/UNIX环境高级编程.png)
 
@@ -215,7 +213,7 @@ UNIX网络编程 卷1：套接字联网API（第3版）
 > 原书名：Unix Network Programming, Volume 1: The Sockets Networking API (3rd Edition)  
 > 作者：[美] W.Richard Stevens / Bill Fenner / Andrew M. Rudoff  
 > 出版社：人民邮电出版社  
-> 书号：ISBN 9787115228406  
+> 书号：ISBN 9787115228406
 
 ![UNIX网络编程 卷1：套接字联网API](https://originalxy.github.io/images/2019-12-2-basic_learning/UNIX网络编程 卷1：套接字联网API.png)
 
@@ -224,7 +222,7 @@ UNIX网络编程 卷2：进程间通信（第2版）
 > 原书名：UNIX Network Programming,Vovum 2：Interprocess Communications,Second Edition  
 > 作者：[美]W. 理查德•史蒂文斯（W. Richard Stevens）  
 > 出版社：人民邮电出版社  
-> 书号：ISBN 9787115367204  
+> 书号：ISBN 9787115367204
 
 ![UNIX网络编程 卷2：进程间通信](https://originalxy.github.io/images/2019-12-2-basic_learning/UNIX网络编程 卷2：进程间通信.png)
 
@@ -243,7 +241,7 @@ SQL必知必会
 > 原书名：Sams teach yourself SQL in 10 minutes,4th edition  
 > 作者：[美]福达 (Ben Forta) 
 > 出版社：人民邮电出版社  
-> 书号：ISBN 787115313980  
+> 书号：ISBN 787115313980
 
 ![SQL必知必会](https://originalxy.github.io/images/2019-12-2-basic_learning/SQL必知必会.png)
 
@@ -252,7 +250,7 @@ SQL必知必会
 > 原书名：High Performance MySQL,3rd  
 > 作者：[美] 施瓦茨 (Baron Schwartz) / 扎伊采夫 (Peter Zaitsev) / 特卡琴科 (Vadim Tkachenko) 
 > 出版社：电子工业出版社  
-> 书号：ISBN 9787121198854  
+> 书号：ISBN 9787121198854
 
 ![高性能MySQL](https://originalxy.github.io/images/2019-12-2-basic_learning/高性能MySQL.png)
 
