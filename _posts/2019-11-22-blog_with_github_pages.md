@@ -446,7 +446,7 @@ PicGo支持图片上传github、SM.MS图床、阿里云、腾讯云等主流图�
 
 研究半天发现是信息熵的问题，其实有人已经在jekyll的issue中问过类似的问题[Jekyll的中文切分问题](https://github.com/jekyll/jekyll/issues/1921)。语法规则的问题可以浏览[liquid官方API文档](https://liquid.bootcss.com/)
 
-{% highlight liquid linenos%}
+{% highlight liquid linenos %}
 {% raw %}
 共 {{ page.content | strip_html | strip_newlines | remove: " " | size }} 字 <b>/</b> 阅读全文约需{{ 
 page.content | strip_html | strip_newlines | remove: " " | size | divided_by: 350 | round }} 分钟
