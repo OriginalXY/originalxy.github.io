@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Gitbook文章编辑工具"
-date:   2019-11-18
+title: Gitbook文章编辑工具
+date: 2019-11-18
 tags: [Writing]
 comments: true
 author: OriginalXY

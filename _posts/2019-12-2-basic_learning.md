@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "学渣的本愿：编程基础"
-date:   2019-12-2
+title: 学渣的本愿：编程基础
+date: 2019-12-2
 tags: [Programming]
 comments: true
 author: OriginalXY

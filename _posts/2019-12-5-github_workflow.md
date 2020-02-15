@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "Github分支策略与工作流"
-date:   2019-12-5
+title: Github分支策略与工作流
+date: 2019-12-5
 tags: [Programming]
 comments: true
 author: OriginalXY
 toc: true
 ---
+
+本文以图例和实际开发流程来讲解什么是分支策略以及分支的作用，以及经典的GitFlow工作流
 
 ## 分支策略
 

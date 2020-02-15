@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Markdown 语法"
-date:   2019-5-21
+title: Markdown 语法
+date: 2019-5-21
 tags: [Writing]
 comments: true
 author: OriginalXY

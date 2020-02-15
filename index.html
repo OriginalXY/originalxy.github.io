@@ -64,10 +64,11 @@ layout: default
       </div>
 
       <div class="entry">
-        {{ post.excerpt | truncate: 150 }}
+        {{ post.excerpt | truncate: 100 }}
       </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <div class="words">本文共 {{ post.content | strip_html | strip_newlines | remove: " " | size }} 字 <b>/</b> 阅读约 {{ post.content | strip_html | strip_newlines | remove: " " | size | divided_by: 350 | plus: 1 }} 分钟</div>
       </article>
   {% endunless %}
   {% endfor %}

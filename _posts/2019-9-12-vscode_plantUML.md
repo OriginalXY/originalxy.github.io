@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "VSCode + PlantUML绘图"
+title: VSCode + PlantUML绘图
 date: 2019-9-12
 tags: [Software Engineering]
 comments: true
