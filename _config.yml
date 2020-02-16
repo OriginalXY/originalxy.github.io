@@ -30,7 +30,7 @@ navigation:
   - name: Tags
     url: /tags
   - name: Anime
-    url: /Anime
+    url: /anime
 # Pagination
 paginate: 5
 
