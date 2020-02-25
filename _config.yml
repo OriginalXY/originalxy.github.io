@@ -31,6 +31,8 @@ navigation:
     url: /tags
   - name: Anime
     url: /anime
+  - name: Dog
+    url: /dog    
 # Pagination
 paginate: 5
 
@@ -57,7 +59,7 @@ footer-links:
   youtube:
 
 # Text under the icons in footer
-footer-text: Copyright (c) 2020 OriginalXY
+footer-text: Copyright (c) 2019 OriginalXY
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account

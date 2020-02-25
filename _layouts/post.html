@@ -23,9 +23,53 @@ layout: default
   </div>
 
   
-
   <div class="entry">
     {{ content }}
+    <hr>
+    <div style="margin: 20px auto; width: 90%; text-align: center;">
+      <div><p>如果你觉得这篇文章帮你节省了时间，增长了知识，请支持我写出更多这样的文章</p></div>
+      <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}" style="  cursor: pointer;
+        border: 0;
+        outline: 0;
+        border-radius: 10px;
+        padding: 0;
+        margin: 0;
+        letter-spacing: normal;
+        text-transform: none;
+        text-indent: 0px;
+        text-shadow: none;" >
+        <span style="display: inline-block;
+          width: 70px;
+          height: 25px;
+          border-radius: 5px;
+          color: #000000;
+          font-weight: 400;
+          font-style: normal;
+          font-variant: normal;
+          font-stretch: normal;
+          font-size: 18px;
+          font-family: "KaiTi";
+          background: #f44336;">打赏</span>
+      </button>
+      <div id="QR" style="display: none;">              
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="https://cdn.jsdelivr.net/gh/OriginalXY/originalxy.github.io/images/reward/wechat.png" alt="微信支付" style="width: 180px;
+            max-width: 100%;
+            display: inline-block;
+            margin: 0.8em 2em 0 2em;"/>
+          <p>微信支付</p>
+        </div>
+                                                
+        <div id="alipay" style="display: inline-block">
+          <img id="alipay_qr" src="https://cdn.jsdelivr.net/gh/OriginalXY/originalxy.github.io/images/reward/alipay.png" alt="支付宝" style="width: 180px;
+            max-width: 100%;
+            display: inline-block;
+            margin: 0.8em 2em 0 2em;"/>
+          <p>支付宝</p>
+        </div>
+    </div>
+  </div>
+  <hr> 
   </div>
 
   {% include disqus.html %}

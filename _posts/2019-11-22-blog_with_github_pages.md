@@ -470,3 +470,4 @@ _include/svg-icons.html生成社交头像的链接
 ## 参考
 [Jekyll使用教程笔记](https://juejin.im/post/5b235a1cf265da597568a97d)
 [一篇文章了解Liquid Template Engine 模版引擎 (Jekyll模版)](https://www.jianshu.com/p/5c6d68bcd836)
+[搭建Hexo博客进阶篇---主题自定义（三）](https://www.jianshu.com/p/4b9ee8fec3a3)
