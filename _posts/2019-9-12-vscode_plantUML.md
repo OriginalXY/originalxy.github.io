@@ -10,6 +10,8 @@ toc: true
 
 一般来说遇到画图的时候通常可以用用draw.io来画流程图，draw.io已经类似visio了，但是有时候拖拉起来也挺麻烦，所以想到找个工具用代码生成流程图。网上实际上工具蛮多的，typora就可以自带流程图，但是不是那么强大，也不如PlantUML专业，另一方面就是github不支持扩展的markdown语法。
 
+<!-- more -->
+
 ## VSCode
 Microsoft在2015年4月30日Build 开发者大会上正式宣布了 Visual Studio Code 项目：一个运行于 Mac OS X、Windows和 Linux 之上的，针对于编写现代 Web 和云应用的跨平台源代码编辑器。
 <!-- more -->

@@ -85,7 +85,11 @@ $ git commit -m "Publish book"
 ### 参考
 
 - [发布到Github Pages](http://www.chengweiyang.cn/gitbook/github-pages/README.html)
-- [详细教程](https://jackchan1999.github.io/2017/05/01/gitbook/GitBook%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/)   
-- [官方指引-integrations-Github](https://docs.gitbook.com/integrations/github)   
+
+- [详细教程](https://jackchan1999.github.io/2017/05/01/gitbook/GitBook%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/)  
+
+- [官方指引-integrations-Github](https://docs.gitbook.com/integrations/github) 
+
 - [Github的GitBook项目](https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md)  
+
 - [Github Pages中文帮助](https://help.github.com/cn/github/working-with-github-pages/about-github-pages)
