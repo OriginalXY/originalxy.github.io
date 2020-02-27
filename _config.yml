@@ -21,18 +21,18 @@ favicon: https://originalxy.github.io/images/favicon.ico
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
 # it from the list(Delete '- name: ' and 'url: ', too!)
 navigation:
-  - name: Blog
+  - name: 博客
     url: /
-  - name: About
+  - name: 关于
     url: /about
-  - name: Archive
+  - name: 归档
     url: /archive
-  - name: Tags
+  - name: 标签
     url: /tags
-  - name: Anime
+  - name: 动画
     url: /anime
-  - name: Dog
-    url: /dog    
+  - name: 狗子
+    url: /dog
 # Pagination
 paginate: 5
 
