@@ -319,7 +319,7 @@ img {
 //
 
 .wrapper-sidebar {
-  width: 20%;
+  width: 30%;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-color: $background-color;
@@ -341,7 +341,7 @@ img {
 }
 
 .sidebar {
-  padding: 0px 0;
+  padding: 20px 0;
 
   @include mobile {
     text-align: center;
@@ -350,7 +350,7 @@ img {
 
 .site-info {
   text-align:center;
-  margin: 0 auto;
+  margin: 100px auto 0;
 
   @include mobile {
     float: none;
@@ -361,8 +361,8 @@ img {
   .site-avatar {
     margin:0 auto;
     display: block;
-    max-width: 600px;
-    max-height: 600px;
+    max-width: 400px;
+    max-height: 400px;
 
     @include mobile {
       max-width: 170px;
@@ -429,7 +429,7 @@ nav {
 
 .wrapper-content {
   float: right;
-  width: 90%;
+  width: 70%;
 
   @include mobile {
     float: none;
@@ -557,13 +557,13 @@ nav {
   position: fixed;
   width: 300px;
   height: 100%;
-  left: 20%;
+  left: 30%;
   overflow: hidden;
 }
 
 @media screen and (max-width:2200px) and (min-width:1200px){
   .withtoc{
-    padding-left: 500px;
+    padding-left: 300px;
   }
 }
 
